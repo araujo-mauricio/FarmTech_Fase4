@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score
 
 # Conectar ao banco
 def carregar_dados():
-    conexao = sqlite3.connect('../Banco de dados/farmtech.db')
+    conexao = sqlite3.connect('../Banco_de_dados/farmtech.db')
     df = pd.read_sql_query("SELECT * FROM sensores", conexao)
     conexao.close()
     return df
