@@ -1,4 +1,4 @@
-# FarmTech Solutions - Fase 4 - Sistema Inteligente de Irrigação 🚜
+# FarmTech Solutions - Fase 4 - Sistema Inteligente de Irrigação
 
 ---
 
@@ -30,25 +30,28 @@ A proposta foi aprimorar o sistema de irrigação automatizado desenvolvido na F
 
 ## Arquitetura do Projeto
 
+```
 FarmTech_Fase4/
 │
-├── Banco_de_Dados/
-│   └── criar_banco.py
-│
-├── Machine_Learning/
-│   └── modelo_irrigacao.py
+├── Banco_de_dados/
+│   ├── criar_banco.py
+│   └── farmtech.db
 │
 ├── Dashboard/
 │   └── farmtech_dashboard.py
 │
 ├── ESP32/
-│   ├── farmtech_esp32_lcd.ino
-│   └── diagram.json (documentado)
+│   ├── diagram.json
+│   └── farmtech_esp32_lcd.ino
 │
-└── Prints/
-    └── (imagens do Wokwi + simulação)
-
----
+├── Machine_Learning/
+│   └── modelo_irrigacao.py
+│
+├── Prints/
+│   └── wokwi_circuito_montado.png
+│
+└── README.md
+```
 
 ## Como Executar
 
@@ -97,5 +100,5 @@ streamlit run farmtech_dashboard.py
 ---
 
 ## Integrantes
-Mauricio Araújo - RM566040
-Igor Herson - RM
+- Mauricio Araújo - RM566040
+- Igor Herson - RM563980
