@@ -84,10 +84,10 @@ streamlit run farmtech_dashboard.py
 
 ## Prints da Simulação (Wokwi)
 
-**LCD funcionando e Serial Plotter em tempo real.**
-*Imagens anexadas na pasta `/Prints`.*
+### Circuito Montado
+![Circuito Montado no Wokwi](Prints/wokwi_circuito_montado.png)
 
-**Projeto montado no Wokwi:**  
+### Projeto montado no Wokwi  
 [Clique e acesse o projeto funcionando](https://wokwi.com/projects/433779477529291777)
 
 ---
