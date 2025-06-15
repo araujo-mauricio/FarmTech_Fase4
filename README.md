@@ -1,0 +1,101 @@
+# FarmTech Solutions - Fase 4 - Sistema Inteligente de Irrigação 🚜
+
+---
+
+## Objetivo
+
+Projeto desenvolvido para a Fase 4 da FIAP — FarmTech Solutions.
+
+A proposta foi aprimorar o sistema de irrigação automatizado desenvolvido na Fase 3, agora integrando:
+
+- Machine Learning com Scikit-Learn
+- Dashboard interativo com Streamlit
+- Banco de Dados SQLite
+- Monitoramento físico no ESP32 (Wokwi)
+- Visualização de variáveis em tempo real
+
+---
+
+## Tecnologias Utilizadas
+
+- Python 3
+- SQLite
+- Scikit-Learn
+- Streamlit
+- ESP32 (Wokwi)
+- C/C++
+- LiquidCrystal I2C (biblioteca Wokwi)
+
+---
+
+## Arquitetura do Projeto
+
+FarmTech_Fase4/
+│
+├── Banco_de_Dados/
+│   └── criar_banco.py
+│
+├── Machine_Learning/
+│   └── modelo_irrigacao.py
+│
+├── Dashboard/
+│   └── farmtech_dashboard.py
+│
+├── ESP32/
+│   ├── farmtech_esp32_lcd.ino
+│   └── diagram.json (documentado)
+│
+└── Prints/
+    └── (imagens do Wokwi + simulação)
+
+---
+
+## Como Executar
+
+### 1 Banco de Dados
+
+```bash
+python criar_banco.py
+```
+
+### 2 Treinamento do Modelo
+
+```bash
+python modelo_irrigacao.py
+```
+
+### 3 Executar o Dashboard
+
+```bash
+streamlit run farmtech_dashboard.py
+```
+
+### 4 Simulação ESP32
+
+- Projeto criado manualmente no Wokwi
+- LCD 16x2 (I2C)
+- 2 Potenciômetros simulando sensores de Umidade e Nutrientes
+- Código C++ no farmtech_esp32_lcd.ino
+
+---
+
+## Prints da Simulação (Wokwi)
+
+**LCD funcionando e Serial Plotter em tempo real.**
+*Imagens anexadas na pasta `/Prints`.*
+
+**Projeto montado no Wokwi:**  
+[Clique e acesse o projeto funcionando](https://wokwi.com/projects/433779477529291777)
+
+---
+
+## Vídeo Demonstrativo
+
+- Link do vídeo no Youtube (não listado):  
+👉 inserir link aqui após gravação
+
+---
+
+## Integrantes
+Mauricio Araújo - RM566040
+Igor Herson - RM
