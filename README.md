@@ -94,8 +94,8 @@ streamlit run farmtech_dashboard.py
 
 ## Vídeo Demonstrativo
 
-- Link do vídeo no Youtube (não listado):  
-👉 inserir link aqui após gravação
+- Link do vídeo no Youtube:  
+(https://youtu.be/AgKmg9TUS5U)
 
 ---
 
